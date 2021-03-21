@@ -19,17 +19,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.curryp0mmes.realistic.guns.RealisticGunsMod"
+      "com.curryp0mmes.random.stuff.fabric.RandomStuffMod"
     ],
     "client": [
-      "com.curryp0mmes.realistic.guns.ClientEnv"
+      "com.curryp0mmes.random.stuff.fabric.RandomStuffClient"
     ],
     "server": [
-      "com.curryp0mmes.realistic.guns.ServerEnv"
+      "com.curryp0mmes.random.stuff.fabric.RandomStuffServer"
     ]
   },
   "mixins": [
-    "realistic_guns.mixins.json"
   ],
 
   "depends": {
@@ -38,6 +37,5 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
