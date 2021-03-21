@@ -1,0 +1,14 @@
+{
+  "block.realistic_guns.crystal_ore": "Crystal Ore",
+  "block.realistic_guns.crystal_block": "Crystal Block",
+  "block.realistic_guns.crystal_bricks": "Crystal Bricks",
+  "item.realistic_guns.crystal_shard": "Crystal Shard",
+  "item.realistic_guns.crystal": "Crystal",
+  "item.realistic_guns.crystal_helmet": "Crystal Helmet",
+  "item.realistic_guns.crystal_chestplate": "Crystal Chestplate",
+  "item.realistic_guns.crystal_leggings": "Crystal Leggings",
+  "item.realistic_guns.crystal_boots": "Crystal Boots",
+  "itemGroup.realistic_guns.crystal": "Crystal Items",
+  "category.realistic_guns.general": "realistic_guns's Mod",
+
+}
