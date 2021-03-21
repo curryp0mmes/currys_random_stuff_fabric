@@ -1,6 +1,7 @@
 package com.curryp0mmes.random.stuff.fabric.registry;
 
 import com.curryp0mmes.random.stuff.fabric.RandomStuffMod;
+import com.curryp0mmes.random.stuff.fabric.custom.material.CrystalArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
@@ -17,17 +18,17 @@ public class ModItems {
 
     //Armor
     public static final ArmorMaterial CRYSTAL_ARMOR_MATERIAL = new CrystalArmorMaterial();
-    public static final Item CRYSTAL_HELMET = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
-    public static final Item CRYSTAL_CHESTPLATE = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
-    public static final Item CRYSTAL_LEGGINGS = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
-    public static final Item CRYSTAL_BOOTS = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
+    public static final Item CRYSTAL_HELMET = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
+    public static final Item CRYSTAL_CHESTPLATE = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
+    public static final Item CRYSTAL_LEGGINGS = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
+    public static final Item CRYSTAL_BOOTS = new ArmorItem(CRYSTAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
 
 
 
     //BlockItems
-    public static final BlockItem CRYSTAL_ORE = new BlockItem(ModBlocks.CRYSTAL_ORE, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
-    public static final BlockItem CRYSTAL_BLOCK = new BlockItem(ModBlocks.CRYSTAL_BLOCK, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
-    public static final BlockItem CRYSTAL_BRICKS = new BlockItem(ModBlocks.CRYSTAL_BRICKS, new Item.Settings().group(RealisticGunsMod.CRYSTAL_GROUP));
+    public static final BlockItem CRYSTAL_ORE = new BlockItem(ModBlocks.CRYSTAL_ORE, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
+    public static final BlockItem CRYSTAL_BLOCK = new BlockItem(ModBlocks.CRYSTAL_BLOCK, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
+    public static final BlockItem CRYSTAL_BRICKS = new BlockItem(ModBlocks.CRYSTAL_BRICKS, new Item.Settings().group(RandomStuffMod.CRYSTAL_GROUP));
 
 
 
