@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "crs",
+  "version": "${version}",
+
+  "name": "Curry's Random Stuff Mod",
+  "description": "A lot of random items and blocks I added to minecraft",
+  "authors": [
+    "curryp0mmes"
+  ],
+  "contact": {
+    "homepage": "https://google.com/",
+    "sources": "https://github.com/curryp0mmes/currys_random_stuff_fabric"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/crs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.curryp0mmes.realistic.guns.RealisticGunsMod"
+    ],
+    "client": [
+      "com.curryp0mmes.realistic.guns.ClientEnv"
+    ],
+    "server": [
+      "com.curryp0mmes.realistic.guns.ServerEnv"
+    ]
+  },
+  "mixins": [
+    "realistic_guns.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
