@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crs:crystal_shard"
+    },
+    {
+      "item": "crs:crystal_shard"
+    },
+    {
+      "item": "crs:crystal_shard"
+    },
+    {
+      "item": "crs:crystal_shard"
+    }
+  ],
+  "result": {
+    "item": "crs:crystal",
+    "count": 1
+  }
+}

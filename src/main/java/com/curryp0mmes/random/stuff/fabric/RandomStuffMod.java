@@ -2,6 +2,7 @@ package com.curryp0mmes.random.stuff.fabric;
 
 import com.curryp0mmes.random.stuff.fabric.registry.ModBlocks;
 import com.curryp0mmes.random.stuff.fabric.registry.ModItems;
+import com.curryp0mmes.random.stuff.fabric.registry.OreGenerators;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -20,5 +21,6 @@ public class RandomStuffMod implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        OreGenerators.configureOres();
     }
 }

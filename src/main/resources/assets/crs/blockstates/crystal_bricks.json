@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "realistic_guns:block/crystal_bricks" }
+    "": { "model": "crs:block/crystal_bricks" }
   }
 }

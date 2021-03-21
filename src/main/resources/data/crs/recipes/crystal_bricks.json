@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crs:crystal_block"
+    },
+    {
+      "item": "crs:crystal_block"
+    },
+    {
+      "item": "crs:crystal_block"
+    },
+    {
+      "item": "crs:crystal_block"
+    }
+  ],
+  "result": {
+    "item": "crs:crystal_bricks",
+    "count": 4
+  }
+}
